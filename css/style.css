@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* BACKGROUND */
+.bg-login {
+  background: linear-gradient(rgba(0,0,0,.65), rgba(0,0,0,.65)),
+  url('../gambar/pexels-pixabay-46148.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.bg-detail {
+  background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)),
+  url('../gambar/pexels-pixabay-46148.jpg');
+  background-size: cover;
+}
+
+/* HERO */
+.hero {
+  background: linear-gradient(rgba(0,0,0,.55), rgba(0,0,0,.55)),
+  url('../gambar/pexels-pixabay-46148.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+/* struk card */
+.struk-card {
+  border-radius: 12px;
+}
+
+.struk-body {
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  background: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  white-space: pre-line;
+  border: 1px dashed #ccc;
+}
+
+/* BADGE */
+.badge-available {
+  background-color: #198754;
+}
+.badge-unavailable {
+  background-color: #dc3545;
+}
+
+/* ANIMASI */
+.fade-in {
+  animation: fadeIn .8s ease;
+}
+.zoom-in {
+  animation: zoomIn .6s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(.9); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
