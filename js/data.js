@@ -6,7 +6,7 @@ const pesawatData = [
     kelas: "Bisnis",
     harga: 2200000,
     status: "Tersedia",
-    gambar: "assets/img/lion.jpg",
+    gambar: "../gambar/pexels-pixabay-461049.jpg",
     waktu: "08:00 - 10:00"
   },
   {
@@ -190,3 +190,4 @@ const pesawatData = [
     waktu: "20:00 - 23:30"
   }
 ];
+
