@@ -1,7 +1,15 @@
 /* LOGIN */
 function login(e) {
   e.preventDefault();
-  location.href = "dashboard.html";
+
+  const username = document.getElementById("username").value;
+  const password = document.getElementById("password").value;
+
+  if (username === "rama" && password === "123") {
+    location.href = "dashboard.html";
+  } else {
+    alert("Username atau password salah!");
+  }
 }
 
 /* GLOBAL VARIABLE */
@@ -162,3 +170,4 @@ function renderPromo() {
 document.addEventListener("DOMContentLoaded", () => {
   renderPromo();
 });
+
